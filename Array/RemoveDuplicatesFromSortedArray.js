@@ -46,7 +46,7 @@ let removeDuplicates = function(nums) {
     const mySet = new Set(nums);
     const myArr = Array.from(mySet);
     for(let i=0; i<mySet.size; i++)  nums[i]=myArr[i];
-    tmpArray = myArr; // for testing
+    tmpArray = myArr; // for testing console
     return mySet.size;
 };
 
